@@ -1,0 +1,83 @@
+.paginator {
+  width: 80%;
+  margin: 0 auto;
+  z-index: 5;
+  height: 250px;
+  position: absolute;
+  left: 10%; }
+  @media (max-width: 992px) {
+    .paginator {
+      width: 90%;
+      left: 5%; } }
+  @media (max-width: 480px) {
+    .paginator {
+      display: none; } }
+  .paginator li {
+    cursor: pointer; }
+    .paginator li.prev {
+      display: block;
+      height: 50px;
+      width: 50px;
+      background-image: url(../img/back.svg);
+      position: absolute;
+      top: 100px;
+      left: 0; }
+    .paginator li.next {
+      display: block;
+      height: 50px;
+      width: 50px;
+      background-image: url(../img/next.svg);
+      position: absolute;
+      top: 100px;
+      right: 0; }
+
+.my-dots {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer; }
+
+.my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent; }
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+  opacity: 1; }
+
+.my-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Rule_Segment_-_Circle_open_-_20px.svg");
+  opacity: .25; }
+
+.my-dots li.slick-active button:before {
+  opacity: .75;
+  color: black; }

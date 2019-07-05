@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width"/>
+	<title>Title</title>
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/slick-styles.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="header__content">
+			<a href="#" class="logo">
+				<img src="img/logo.png" alt="boostfolia" class="logo__icon">
+				<span class="logo__text">Boostfolia</span>
+			</a>
+			<nav class="menu">
+				<div id="humburger-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul class="menu-items">
+					<li><a href="#about-us" class="item anchor">About us</a></li>
+					<li><a href="#our-works" class="item anchor">Our works</a></li>
+					<li><a href="#team" class="item anchor">Who we are</a></li>
+					<li><a href="#plan" class="item anchor">Choose plan</a></li>
+					<li><a href="#contact" class="item anchor">Get in touch</a></li>
+				</ul>
+			</nav>	
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="banner">
+			<h1 class="banner__title">We think creative be creative</h1>
+			<h3 class="banner__subtitle">Like to do creative works</h3>
+			<div class="mouse">
+				<img src="img/mouse.png" alt="mouse" class="mouse__img">
+				<p class="mouse__text">scroll down</p>
+			</div>
+		</section>
+
+		<section class="about-us" id="about-us">
+			<header class="about-us__header">
+				<h2 class="title">About us</h2>
+				<hr class="line">
+				<p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi dolorem nesciunt, ipsum eos minus esse soluta dignissimos, sapiente nobis ducimus, vitae consectetur delectus quibusdam labore, accusantium sed earum repellat!</p>
+			</header>
+			<div class="about-us__sections">
+				<div class="section">
+					<img src="img/about/platen.png" alt="platen" class="section__img">
+					<h4 class="section__title">Creative design</h4>
+					<p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...</p>
+				</div>
+				<div class="section">
+					<img src="img/about/portfolio.png" alt="portfolio" class="section__img">
+					<h4 class="section__title">Uniqu portfolio</h4>
+					<p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...</p>
+				</div>
+				<div class="section">
+					<img src="img/about/infinity.png" alt="infinity" class="section__img">
+					<h4 class="section__title">Infinite updates</h4>
+					<p class="section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ...</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="video-section">
+			<div class="video-section__text">
+				<h3 class="video-title">Watch behind the scene</h3>
+				<p class="video-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi molestiae quos unde ratione itaque, dolores dolor, inventore ducimus voluptate odio illo tempora mollitia soluta explicabo corporis officiis consectetur, temporibus sequi!</p>
+				<button class="video-btn" id="video-btn">play now</button>
+			</div>
+			<div class="video">
+				<video controls="controls" poster="img/poster.jpg" id="videoPlayer"><source src="video/TomEllisReadsThirstTweets.mp4">
+				</video>
+			</div>
+		</section>
+
+		<section class="our-works" id="our-works">
+			<header class="our-works__header">
+				<h2 class="title">Our works</h2>
+				<hr class="line">
+				<div class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi dolorem nesciunt, ipsum eos minus esse soluta dignissimos, sapiente nobis ducimus, vitae consectetur delectus quibusdam labore, accusantium sed earum repellat!</div>
+			</header>
+			<div class="our-works__content">
+				<div id="tabs">
+					<span class="tab" id="tab1">All projects</span>
+					<span class="tab" id="tab2">Photography</span>
+					<span class="tab" id="tab3">Web design</span>
+					<span class="tab" id="tab4">Branding</span>
+					<span class="tab" id="tab5">Mobile app</span>
+					<div class="tabContent" id="tabContent1">
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/1.jpg" alt="..." class="work__img"></div>
+					</div>
+					<div class="tabContent hide" id="tabContent2">
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/2.jpg" alt="..." class="work__img"></div>
+					</div>
+					<div class="tabContent hide" id="tabContent3">
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/3.jpg" alt="..." class="work__img"></div>
+					</div>
+					<div class="tabContent hide" id="tabContent4">
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/4.jpg" alt="..." class="work__img"></div>
+					</div>
+					<div class="tabContent hide" id="tabContent5">
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+						<div class="work"><img src="img/works/5.png" alt="..." class="work__img"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="clients">
+			<div class="paginator">
+				<ul>
+					<li class="prev"></li>
+					<li class="next"></li>
+				</ul>
+			</div>
+			<div class="slider">
+
+				<div class="slide">
+					<div class="client">
+						
+						<img src="img/clients/themeforest.svg" alt="..." class="client__icon">
+						<h5 class="client__text">themeforest</h5>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="client">
+						
+						<img src="img/clients/graphicriver.svg" alt="..." class="client__icon">
+						<h5 class="client__text">graphicriver</h5>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="client">
+						<img src="img/clients/videohive.svg" alt="..." class="client__icon">
+						<h5 class="client__text">videohive</h5>
+					</div>
+				</div>
+				<div class="slide">
+					<div class="client">
+						<img src="img/clients/themeforest.svg" alt="..." class="client__icon">
+						<h5 class="client__text">themeforest</h5>
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+
+		<section class="team" id="team">
+			<div class="team__header">
+				<h2 class="title">Who we are</h2>
+				<hr class="line">
+				<p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi dolorem nesciunt, ipsum eos minus esse soluta dignissimos, sapiente nobis ducimus, vitae consectetur delectus quibusdam labore, accusantium sed earum repellat!</p>
+			</div>
+			<div class="team-slider">
+				<div class="team-slide">
+					<div class="team-content">
+						<div class="employee">
+							<div class="my-dots"></div>
+							<div class="employee__img" style="background-image: url(img/team/face1.jpg);"></div>
+							<h4 class="employee__name">Jane Smith</h4>
+							<h5 class="employee__position">Designer</h5>
+							<div class="employee__socials">
+								<a href="#" class="social">
+									<img src="img/team/be.png" alt="...">
+								</a>
+								<a href="#" class="social">
+									<img src="img/team/twitter.png" alt="...">
+								</a>
+								<a href="#" class="social">
+									<img src="img/team/facebook.png" alt="...">
+								</a>
+							</div>
+						</div>
+						<div class="skills-section">
+							<h4 class="skills-section__title">My skills</h4>
+							<p class="skills-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur, placeat. Inventore ullam nostrum voluptatum consequatur libero iure a omnis, necessitatibus hic. Laboriosam beatae ea expedita architecto, autem animi libero.</p>
+							<div class="skills-section__skills">
+								<div class="skill">
+									<span class="skill__title">Photoshop</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+
+
+								</div>
+								<div class="skill"><span class="skill__title">Illustrator</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 92%"></div>
+									</div>
+									<span class="progress-value">92%</span>
+								</div>
+								<div class="skill"><span class="skill__title">Sketch</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+									</div>
+									<span class="progress-value">90%</span>
+								</div>
+								<div class="skill"><span class="skill__title">After Effects</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 98%"></div>
+									</div>
+									<span class="progress-value">98%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="team-slide">
+					<div class="team-content">
+						<div class="employee">
+							<div class="employee__img" style="background-image: url(img/team/face2.jpg);"></div>
+							<h4 class="employee__name">Jane Smith</h4>
+							<h5 class="employee__position">Designer</h5>
+							<div class="employee__socials">
+								<a href="#" class="social">
+									<img src="img/team/be.png" alt="...">
+								</a>
+								<a href="#" class="social">
+									<img src="img/team/twitter.png" alt="...">
+								</a>
+								<a href="#" class="social">
+									<img src="img/team/facebook.png" alt="...">
+								</a>
+							</div>
+						</div>
+						<div class="skills-section">
+							<h4 class="skills-section__title">My skills</h4>
+							<p class="skills-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur, placeat. Inventore ullam nostrum voluptatum consequatur libero iure a omnis, necessitatibus hic. Laboriosam beatae ea expedita architecto, autem animi libero.</p>
+							<div class="skills-section__skills">
+								<div class="skill"><span class="skill__title">Photoshop</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+								<div class="skill"><span class="skill__title">Illustrator</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+								<div class="skill"><span class="skill__title">Sketch</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+								<div class="skill"><span class="skill__title">After Effects</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="team-slide">
+					<div class="team-content">
+						<div class="employee">
+							<div class="employee__img" style="background-image: url(img/team/face3.jpg);"></div>
+							<h4 class="employee__name">Jane Smith</h4>
+							<h5 class="employee__position">Designer</h5>
+							<div class="employee__socials">
+								<a href="#" class="social">
+									<img src="img/team/be.png" alt="...">
+								</a>
+								<a href="#" class="social">
+									<img src="img/team/twitter.png" alt="...">
+								</a>
+								<a href="#" class="social">
+									<img src="img/team/facebook.png" alt="...">
+								</a>
+							</div>
+						</div>
+						<div class="skills-section">
+							<h4 class="skills-section__title">My skills</h4>
+							<p class="skills-section__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aspernatur, placeat. Inventore ullam nostrum voluptatum consequatur libero iure a omnis, necessitatibus hic. Laboriosam beatae ea expedita architecto, autem animi libero.</p>
+							<div class="skills-section__skills">
+								<div class="skill">
+									<span class="skill__title">Photoshop</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+								<div class="skill"><span class="skill__title">Illustrator</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+								<div class="skill"><span class="skill__title">Sketch</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+								<div class="skill"><span class="skill__title">After Effects</span>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+									</div>
+									<span class="progress-value">88%</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="features-section">
+			<div class="features-section__header">
+				<h3 class="features-title">Some Features</h3>
+				<hr class="another-line">
+			</div>
+			<div class="features">
+				<div class="feature">
+					<img src="img/features/screen.png" alt="..." class="feature__img">
+					<h4 class="feature__title">Shortcodes</h4>
+					<div class="feature__count">46</div>
+				</div>
+				<div class="feature">
+					<img src="img/features/plugins.png" alt="..." class="feature__img">
+					<h4 class="feature__title">Integrated plugins</h4>
+					<div class="feature__count">128</div>
+				</div>
+				<div class="feature">
+					<img src="img/features/product.png" alt="..." class="feature__img">
+					<h4 class="feature__title">Creative Products</h4>
+					<div class="feature__count">450</div>
+				</div>
+				<div class="feature">
+					<img src="img/features/medal.png" alt="..." class="feature__img">
+					<h4 class="feature__title">Clients Worldwide</h4>
+					<div class="feature__count">100+</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="blog-section">
+			<div class="blog-section__header">
+				<h2 class="title">Blog posts</h2>
+				<hr class="line">
+				<p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi dolorem nesciunt, ipsum eos minus esse soluta dignissimos, sapiente nobis ducimus, vitae consectetur delectus quibusdam labore, accusantium sed earum repellat!</p>
+			</div>
+			<div class="blog-section__posts">
+				<div class="post">
+					<a href="#">
+						<img src="img/blog/nature.jpg" alt="..." class="post__img">
+					</a>
+					<h4 class="post__title">Create Creative & Clean</h4>
+					<p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate, explicabo ab? Earum officiis, ipsam natus delectus, quos.</p>
+					<footer class="post__footer">
+						<div class="date">
+							<img src="img/blog/clock.png" alt="..." class="date__icon">
+							<span class="date__text">25 Jan 2015</span>
+						</div>
+						<div class="rate">
+							<img src="img/blog/like.png" alt="..." class="rate__icon">
+							<span class="rate__text">25</span>
+							<img src="img/blog/comment.png" alt="..." class="rate__icon">
+							<span class="rate__text">11</span>
+						</div>
+					</footer>
+				</div>
+				<div class="post">
+					<a href="#">
+						<img src="img/blog/nature.jpg" alt="..." class="post__img">
+					</a>
+					<h4 class="post__title">Make A Sleak Break</h4>
+					<p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate, explicabo ab? Earum officiis, ipsam natus delectus, quos.</p>
+					<footer class="post__footer">
+						<div class="date">
+							<img src="img/blog/clock.png" alt="..." class="date__icon">
+							<span class="date__text">25 Jan 2015</span>
+						</div>
+						<div class="rate">
+							<img src="img/blog/like.png" alt="..." class="rate__icon">
+							<span class="rate__text">25</span>
+							<img src="img/blog/comment.png" alt="..." class="rate__icon">
+							<span class="rate__text">11</span>
+						</div>
+					</footer>
+				</div>
+				<div class="post">
+					<a href="#">
+						<img src="img/blog/nature.jpg" alt="..." class="post__img">
+					</a>
+					<h4 class="post__title">Creative manipulation</h4>
+					<p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate, explicabo ab? Earum officiis, ipsam natus delectus, quos.</p>
+					<footer class="post__footer">
+						<div class="date">
+							<img src="img/blog/clock.png" alt="..." class="date__icon">
+							<span class="date__text">25 Jan 2015</span>
+						</div>
+						<div class="rate">
+							<img src="img/blog/like.png" alt="..." class="rate__icon">
+							<span class="rate__text">25</span>
+							<img src="img/blog/comment.png" alt="..." class="rate__icon">
+							<span class="rate__text">11</span>
+						</div>
+					</footer>
+				</div>
+			</div>			
+		</section>
+		
+		<section class="plan-section" id="plan">
+			<div class="plan-section__header">
+				<h3 class="plan-title">Choose plan</h3>
+				<hr class="another-line">
+			</div>
+			<div class="choose-plan">
+				<div class="plan">
+					<div class="plan__title-block">
+						<h6 class="plan-title">Basic</h6>
+						<h3 class="price">Free</h3>
+					</div>
+					<div class="plan__opportunities">
+						<div class="opportunity"><span class="opportunity__value">20</span><span class="opportunity__text">Pages</span></div>
+						<div class="opportunity"><span class="opportunity__value">2</span><span class="opportunity__text">GB Storage</span></div>
+						<div class="opportunity"><span class="opportunity__value">150</span><span class="opportunity__text">Members</span></div>
+						<div class="opportunity"><span class="opportunity__value">2</span><span class="opportunity__text">Contributors</span></div>
+					</div>
+					<button class="purchase-btn">Purchase</button>
+				</div>
+				<div class="plan">
+					<div class="plan__title-block">
+						<h6 class="plan-title">Standart</h6>
+						<h3 class="price">$24</h3>
+					</div>
+					<div class="plan__opportunities">
+						<div class="opportunity"><span class="opportunity__value">25</span><span class="opportunity__text">Pages</span></div>
+						<div class="opportunity"><span class="opportunity__value">10</span><span class="opportunity__text">GB Storage</span></div>
+						<div class="opportunity"><span class="opportunity__value">300</span><span class="opportunity__text">Members</span></div>
+						<div class="opportunity"><span class="opportunity__value">5</span><span class="opportunity__text">Contributors</span></div>
+					</div>
+					<button class="purchase-btn">Purchase</button>
+				</div>
+				<div class="plan">
+					<div class="plan__title-block">
+						<h6 class="plan-title">Premium</h6>
+						<h3 class="price">$40</h3>
+					</div>
+					<div class="plan__opportunities">
+						<div class="opportunity"><span class="opportunity__value">30</span><span class="opportunity__text">Pages</span></div>
+						<div class="opportunity"><span class="opportunity__value">20</span><span class="opportunity__text">GB Storage</span></div>
+						<div class="opportunity"><span class="opportunity__value">500</span><span class="opportunity__text">Members</span></div>
+						<div class="opportunity"><span class="opportunity__value">10</span><span class="opportunity__text">Contributors</span></div>
+					</div>
+					<button class="purchase-btn">Purchase</button>
+				</div>
+				<div class="plan">
+					<div class="plan__title-block">
+						<h6 class="plan-title">Professional</h6>
+						<h3 class="price">$75</h3>
+					</div>
+					<div class="plan__opportunities">
+						<div class="opportunity"><span class="opportunity__value">40</span><span class="opportunity__text">Pages</span></div>
+						<div class="opportunity"><span class="opportunity__value">40</span><span class="opportunity__text">GB Storage</span></div>
+						<div class="opportunity"><span class="opportunity__value">1000</span><span class="opportunity__text">Members</span></div>
+						<div class="opportunity"><span class="opportunity__value">20</span><span class="opportunity__text">Contributors</span></div>
+					</div>
+					<button class="purchase-btn">Purchase</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-section" id="contact">
+			<div class="contact-section__header">
+				<h2 class="title">Get in touch</h2>
+				<hr class="line">
+				<p class="header-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil modi dolorem nesciunt, ipsum eos minus esse soluta dignissimos, sapiente nobis ducimus, vitae consectetur delectus quibusdam labore, accusantium sed earum repellat!</p>
+			</div>
+			<form action="#" class="contact-section__form">
+				<div class="input-section">
+					<div class="input-block">
+						<label class="label" for="name">Name</label>
+						<input type="text" id="name" name="name" class="input" required>
+					</div>
+					<div class="input-block">
+						<label class="label" for="email">Mail</label>
+						<input type="email" id="email" name="email" class="input" required>
+					</div>
+				</div>
+				<div class="textarea-section">
+					<label class="label" for="textarea">Message</label>
+					<textarea name="textarea" id="textarea" cols="30" rows="1" class="textarea" required></textarea>
+				</div>
+				<br>
+
+				<button class="send-btn">Send Message</button>
+			</form>
+		</section>
+
+		<section class="map-section">
+			<header class="map-section__header">
+				<h3 class="title showMap">Locate on map</h3>
+				<img src="img/down-arrow.svg" alt="..." class="arrow-down showMap">
+			</header>
+			<div class="map" id="map" style="display: none;">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4492.61566020049!2d24.709651017974153!3d48.92215044430266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1558076948272!5m2!1sru!2sua" allowfullscreen></iframe>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<img src="img/logo.png" alt="Boostfolia" class="logo-icon">
+		<span class="logo-text">Boostfolia</span>
+		<p class="author">MADE WITH LOVE BY CREATIVEPRODUCT</p>
+		<div class="socials">
+			<img src="img/beW.png" alt="..." class="social">
+			<img src="img/twitterW.png" alt="..." class="social">
+			<img src="img/facebookW.png" alt="..." class="social">
+		</div>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="slick/slick.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/videoPlayer.js"></script>
+	<script src="js/anchor.js"></script>
+	<script src="js/tabs.js"></script>
+	<script src="js/slick-slider.js"></script>
+	<script src="js/showMap.js"></script>
+</body>
+</html>
